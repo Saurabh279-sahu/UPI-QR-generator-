@@ -10,7 +10,7 @@ save_folder = "/sdcard/UPI_QR"
 if not os.path.exists(save_folder):
     os.makedirs(save_folder)
 
-print("=== 🏦 UPI QR Code Generator v3 ===\n")
+print("=== 🏦 UPI QR Code Generator ===\n")
 
 # Input details
 name = input("Enter your name (optional): ") or "Unknown"
