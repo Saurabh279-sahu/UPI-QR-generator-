@@ -26,7 +26,7 @@ You can pre-fill payment details like amount and note message, then save the QR 
 
 📁 Project File
 
-upi_qr_v3.py
+upi_qr_generator.py
 
 
 ---
@@ -69,17 +69,20 @@ pip install qrcode[pil]
 
 2. Run the script:
 ```bash
-python upi_qr_v3.py
+python upi_qr_generator.py
 ```
 
 3. Enter your payment details when asked:
 examle
-``
+
 Enter UPI ID: saurabh@paytm
+
 Enter Payee Name: Saurabh Sahu
+
 Enter Amount (₹): 150
+
 Enter Note: Snacks Payment
-``
+
 
 5. The QR code will be generated and saved as:
 ``
